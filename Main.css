@@ -1,10 +1,8 @@
 .body {
   background: url("images/demoBabyDragon.jpg") no-repeat top right;
-  background-size: cover;
+  background-size: 198px cover;
   background-image: url("images/demoSnowFalling.gif");
   background-size: cover;
-  /*  linear-gradient(to bottom, #7927b2 0%, #6666ff 100%);
-    background-size: cover; */
 }
 
 .container {
