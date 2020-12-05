@@ -4,7 +4,7 @@
   background-image: url("images/demoSnowFalling.gif");
   background-size: cover;
   /*  linear-gradient(to bottom, #7927b2 0%, #6666ff 100%);
-  background-size: cover; */
+    background-size: cover; */
 }
 
 .container {
@@ -15,15 +15,13 @@
   margin-bottom: 200px;
   grid-template-columns: 30px repeat(7, 1fr);
   grid-template-rows: 70px 400px 1fr;
-  grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
+  grid-template-areas: "hd hd hd hd hd hd hd hd" "sd sd main main main main main main" "ft ft ft ft ft ft ft ft";
   /* border: 2px solid yellow; */
 }
+
 .box {
   /*width:250px;
-   hieght: 150px; */
+     hieght: 150px; */
   border: 1px solid #6666ff;
   background-image: url("images/demoSnowFalling.gif");
   background-size: cover;
@@ -36,12 +34,15 @@
   background-size: 400px 400px, 500px, cover;
   background-repeat: no-repeat;
 }
+
 .sidebar {
   grid-area: sd;
 }
+
 .footer {
   grid-area: sd;
 }
+
 .content {
   grid-area: main;
   background-image: url("images/demoSnowFalling.gif");
@@ -49,6 +50,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .button1 {
   background-color: cyan;
   font-size: 20px;
@@ -90,6 +92,7 @@
   font-size: 20px;
   padding: 3%;
 }
+
 .button8 {
   background-color: darkorchid;
   font-size: 20px;
