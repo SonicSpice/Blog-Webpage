@@ -1,0 +1,73 @@
+table {
+  width: 400px;
+  /*border-spacing: 40px;*/
+}
+
+th,
+caption {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: orange;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 11pt;
+  background-image: url(demoindustry.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+table {
+  width: 80%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  opacity: 0.95;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: orange;
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: orange;
+}
+
+tr:nth-child(odd) {
+  background-color: orange;
+}
+
+.button0 {
+  background-color: purple;
+  font-size: 20px;
+}
+
+.button3 {
+  background-color: green;
+  font-size: 20px;
+}
+
+.button4 {
+  background-color: darkkhaki;
+  font-size: 20px;
+}
