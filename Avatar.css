@@ -4,7 +4,6 @@
   padding: 0;
   background: rgb(250, 250, 250); 
   } */
-
 input {
   font-size: 26px;
   padding: 10px;
@@ -12,6 +11,7 @@ input {
   display: block;
   margin: 20px 0;
 }
+
 #navbar {
   width: 100%;
   position: absolute;
@@ -23,9 +23,10 @@ input {
   font-size: 26px;
   text-align: center;
   color: #ff7f50;
-  background: url("images/demoBabyDragon.jpg") rgb(205, 92, 92) 20px no-repeat;
+  background: url("images/demoBabyDragon.jpg") indianred 20px no-repeat;
   background-size: 50px;
 }
+
 #navbar span {
   position: relative;
   top: 19px;
@@ -34,6 +35,7 @@ input {
 #wrapper div {
   margin: 0 auto;
 }
+
 #wrapper {
   margin: 0 auto;
   width: 100%;
@@ -50,10 +52,12 @@ input {
   background-image: url("images/demoBabyDragon.jpg");
   background-size: cover;
 }
+
 .button0 {
   background-color: purple;
   font-size: 20px;
 }
+
 .button3 {
   background-color: orange;
   font-size: 20px;
@@ -63,3 +67,4 @@ input {
   background-color: red;
   font-size: 20px;
 }
+/*# sourceMappingURL=Avatar.css.map */

@@ -1,19 +1,19 @@
 .container {
   margin-top: 100px;
   margin-bottom: 100px;
+  display: -ms-grid;
   display: grid;
   background-color: darkblue;
-  grid-template-columns: 300px 300px 300px;
+  -ms-grid-columns: 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px;
   /* */
-  grid-template-rows: 350px 350px 600px 100px;
+  -ms-grid-rows: 350px 350px 600px 100px;
+      grid-template-rows: 350px 350px 600px 100px;
   /* grid-template-columns: repeat (3, 1fr); */
-  grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "feat feat feat feat feat feat feat feat"
-    "main main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
+      grid-template-areas: "hd hd hd hd hd hd hd hd" "feat feat feat feat feat feat feat feat" "main main main main main main main main" "ft ft ft ft ft ft ft ft";
   border: 2px solid black;
 }
+
 .box {
   width: 1070px;
   height: 100px;
@@ -21,13 +21,18 @@
   border: 1px solid cyan;
   background: darkblue;
 }
+
 .box {
   border: 3px solid cyan;
   background: darkblue;
   height: 310px;
   width: auto;
 }
+
 .header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
   grid-area: hd;
   background-size: contain;
   background-repeat: no-repeat;
@@ -38,6 +43,9 @@
 }
 
 .feature {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
   grid-area: feat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -46,7 +54,11 @@
   width: 1320px;
   position: relative;
 }
+
 .content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
   grid-area: main;
   background-size: contain;
   background-repeat: no-repeat;
@@ -57,6 +69,9 @@
 }
 
 .footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
   grid-area: ft;
   background-image: url("images/demoArielBowing.jpg");
   background-position: left;
@@ -75,3 +90,4 @@
   background-color: green;
   font-size: 20px;
 }
+/*# sourceMappingURL=Blog.css.map */

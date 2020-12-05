@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,MAAM;EACxB,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,IAAI;EACtB,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,KAAK;EACvB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "Typogrophy.scss"
+    ],
+    "names": [],
+    "file": "Typogrophy.css"
+}
