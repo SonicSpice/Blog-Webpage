@@ -1,0 +1,84 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  /*grid-template-columns: 30px repeat(3, 1fr); */
+  /* */
+  grid-template-rows: 100px 350px 255px 100px;
+  /* grid-template-columns: 30px repeat(3, 1fr); */
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "feat feat feat feat feat feat feat feat"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  border: 1px solid darkgreen;
+}
+.box {
+  width: 1070px;
+  height: 100px;
+  background-size: cover;
+  border: 1px solid darkgreen;
+  background-color: seagreen;
+}
+
+.header {
+  grid-area: hd;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+
+.footer {
+  grid-area: ft;
+  background-image: url("../images/demoEcosia.gif");
+  background-position: left;
+  background-size: contain;
+  height: 320px;
+  width: 1318px;
+  background-repeat: no-repeat;
+}
+
+.feature {
+  grid-area: feat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+
+.content {
+  grid-area: main;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+.button0 {
+  background-color: greenyellow;
+  font-size: 40px;
+  position: relative;
+  top: -157px;
+  right: -400px;
+}
+
+.button1 {
+  background-color: greenyellow;
+  font-size: 40px;
+  position: relative;
+  top: -300px;
+  right: -400px;
+}
+
+.button8 {
+  background-color: greenyellow;
+  font-size: 40px;
+  position: relative;
+  top: -300px;
+  right: -690px;
+}

@@ -27,7 +27,7 @@ tr:nth-child(even) {
 body {
   font-family: sans-serif;
   font-size: 11pt;
-  background-image: url("images/demoindustry.jpg");
+  background-image: url("../images/demoindustry.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -74,7 +74,7 @@ tr:nth-child(odd) {
 }
 
 .button4 {
-  background-color: darkkhaki;
+  background-color: blue;
   font-size: 20px;
 }
 /*# sourceMappingURL=Table.css.map */

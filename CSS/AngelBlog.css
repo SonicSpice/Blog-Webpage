@@ -1,0 +1,85 @@
+.container {
+  display: grid;
+  grid-template-columns: 30px repeat(3, 1fr);
+  /* */
+  grid-template-rows: 390px 350px 600px 100px;
+  /* grid-template-columns: 30px repeat(3, 1fr); */
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "feat feat feat feat feat feat feat feat"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  border: 2px solid darkblue;
+}
+.box {
+  width: 1070px;
+  height: 100px;
+  background-size: cover;
+  border: 1px solid cyan;
+  background: darkblue;
+}
+
+.header {
+  grid-area: hd;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+
+.footer {
+  grid-area: ft;
+  background-image: url("../images/demoArielBowing.jpg");
+  background-position: left;
+  background-size: cover;
+  height: 320px;
+  width: 1318px;
+  background-repeat: no-repeat;
+}
+
+.feature {
+  grid-area: feat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+
+.content {
+  grid-area: main;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 394px;
+  width: 1320px;
+  position: relative;
+}
+.button0 {
+  background-color: darkblue;
+  font-size: 20px;
+}
+
+.button3 {
+  background-color: darkblue;
+  font-size: 20px;
+}
+
+.button7 {
+  background-color: rgb(63, 181, 179);
+  font-size: 20px;
+  position: relative;
+  top: -57px;
+  right: -392px;
+}
+
+.button5 {
+  background-color: darkred;
+  font-size: 20px;
+  position: relative;
+  top: -116px;
+  right: -245px;
+}
