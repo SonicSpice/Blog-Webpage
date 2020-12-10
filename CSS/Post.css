@@ -1,92 +1,124 @@
+html,
+body {
+  background-color: lightskyblue;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  /*grid-template-columns: 30px repeat(3, 1fr); */
-  /* */
-  grid-template-rows: 100px 350px 255px 200px;
-  /* grid-template-columns: 30px repeat(3, 1fr); */
+  grid-template-columns: 30px repeat(3, 1fr);
+  grid-template-rows: 390px 350px 600px 430px;
   grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "feat feat feat feat feat feat feat feat"
     "main main main main main main main main"
     "ft ft ft ft ft ft ft ft";
-  border: 1px solid yellow;
+  border: 2px solid darkblue;
 }
+
 .box {
   width: 1070px;
   height: 100px;
   background-size: cover;
-  border: 1px solid yellow;
-  background-color: #a57528;
+  border: 1px solid cyan;
+  background: darkblue;
 }
 
 .header {
   grid-area: hd;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  color: cyan;
+  background-size: cover;
   height: 394px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
 }
 
 .footer {
   grid-area: ft;
-  background-image: url("../images/demoBabyDragon.jpg");
-  background-position: left;
-  background-size: contain;
-  height: 320px;
-  width: 1318px;
+  position: relative;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 430px;
+  width: 1320px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
 }
 
 .feature {
   grid-area: feat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 394px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
 }
 
 .content {
   grid-area: main;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 394px;
+  height: 1000px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
 }
+
 .button0 {
-  background-color: darkgreen;
-  font-size: 50px;
+  background-color: cyan;
+  font-size: 20px;
   position: relative;
-  top: -110px;
-  right: -400px;
+  top: -80px;
+  right: -870px;
+  padding: 20px;
 }
 
-.button3 {
-  background-color: darkgreen;
-  font-size: 40px;
+.button1 {
+  display: flex;
+  background-color: darkred;
+  font-size: 20px;
   position: relative;
-  top: -250px;
-  right: -120px;
+  top: -200px;
+  right: -746px;
+  padding: 20px;
 }
 
-.button4 {
+.button2 {
   background-color: orange;
   font-size: 45px;
   position: relative;
   top: -325px;
   right: -800px;
+  padding: 20px;
 }
 
-.button5 {
+.button3 {
   background-color: seagreen;
   font-size: 50px;
   position: relative;
   top: -270px;
   right: -800px;
+  padding: 20px;
+}
+
+#Winter {
+  color: cyan;
+}
+
+#snow {
+  color: snow;
+}
+
+#Ice {
+  color: green;
+}
+
+#color {
+  color: red;
+}
+
+#Avatar {
+  border-radius: 70%;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
 }

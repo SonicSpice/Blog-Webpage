@@ -5,156 +5,41 @@
     <meta charset="utf-8" />
     <title>Personal Blog Website</title>
     <meta content="width=device-width initial-scale=1, maximum-scale=1" name="viewpoint" />
-    <button type="TypogrophyBlog.html">
-      <TypogrophyBlog.html>
-    </button>
-    <link rel="stylesheet" href="pages/TypogrophyBlog.html" 
-    <link rel="stylesheet" href="pages/Post.html">
-    <link rel="styleheet" href="pages/Table.html">
+
     <link rel="stylesheet" href="css/Index.css">
-    <link rel="stylesheet" href="pages/Avatar.html">
-    <style>
-      body {
-        background: url("images/demoBabyDragon.jpg") no-repeat top right, url('images/demoSnowFalling.gif') no-repeat;
-        background-size: 198px 198px, cover;
-      }
-    </style>
+    
+  <body class="container">
 
-    <style>
-      .container {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 250px 700px 100px;
-        grid-template-areas:
-          "hd hd hd hd hd hd hd hd"
-          "sd sd main main main main main main"
-          "ft ft ft ft ft ft ft ft";
-        border: 2px solid #6666ff;
-
-      }
-
-      .box {
-        border: 1px solid #6666ff;
-        background: purple;
-      }
-
-      .header {
-        grid-area: hd;
-        background-image: url("images/demoNorthernLights.gif");
-        background-size: 1331px 300px, cover;
-        background-repeat:no-repeat;
-
-      }
-
-      .footer {
-        grid-area: ft;
-
-      }
-
-      .sidebar {
-        grid-area: sd;
-      }
-
-      .content {
-        grid-area: main;
-      }
-    </style>
-  </head>
-
-
-  <style>
-    #nestedGrid {
-      display: grid;
-      grid-template-columns: 48% 48%;
-      grid-template-rows: 110% 110%;
-      height: calc(50vh);
-      grid-gap: 5px;
-      /* border: 3px solid black; */
-    }
-
-    .photoBox {
-      width: 450px;
-      height: 250px;
-      border: solid #6666ff;
-      background: purple;
-    }
-
-    #one {
-      justify-content: auto;
-      height: 100%;
-      width: 100%;
-      background-image: url('images/demoSpring.jpg');
-      background-size: cover;
-
-    }
-
-
-    #two {
-      justify-content: auto;
-      height: 100%;
-      width: 106%;
-      background-image: url('images/demoSummer.jpg');
-      background-size: cover;
-    }
-
-
-
-    #three {
-      justify-content: auto;
-      height: auto;
-      background-image: url('images/demoAutumn.jpg');
-      background-size: cover;
-    }
-
-
-    #four {
-      height: auto;
-      width: 106%;
-      background-image: url('images/demoWinter.jpg');
-      background-size: cover;
-    }
-
-  
-  </style>
-
-  <body>
-
-
-    <!-- - add content to our sections--
-      - clean up a bit 
-      - link a second page -->
-  </body>
-
-  <body Text="#7927b2"></body>
-  <div class="container">
-    <div class="header box">
-      <h1 style="color:purple;"><p>All Four Seasons Of Nature Is The Reason Why We Are Programming Computers</p></h1>
-      <p style="color: snow"> Without nature we would not have the materials for building computers and
+    <article class="header box" id = "Winter">
+      <h1><p>All Four Seasons Of Nature Is The Reason Why We Are Programming Computers</p></h1>
+      <p> Without nature we would not have the materials for building computers and
         programming them.</p>
-      <p style="color: snow"> Without nature we wouldn't be able to build apps, websites, or even robtos.</p>
-      <p style="color: snow"> Without nature our economy would go down in an instant.</p>
-      <p style="color:snow"> Without nature no inventions would be made. Therefore nature plays an important role in
+      <p> Without nature we wouldn't be able to build apps, websites, or even robtos.</p>
+      <p> Without nature our economy would go down in an instant.</p>
+      <p> Without nature no inventions would be made. Therefore nature plays an important role in
         humanitys' daily lives.</p>
-    </div>
-    <div class="sidebar box">
+      </article>
+
+    <article class="sidebar box">
       <h1 style="color:white"><p>BlogPost</p></h1><a href="pages/Post.html"><button type="button" class="button button1">Personal Blog</button></h1></a>
-        <h1><a href="pages/TypogrophyBlog.html"><button type="button" class="button button2">TypogrophyBlog</button></h1></a>
-        <h1><a href="pages/Table.html"><button type="button" class="button button3">ResourceIndustryBlog</button></h1></a>
-        <h1><a href="pages/AngelBlog.html"><button type="button" class="button button4"> Angel Blog</button></h1></a>         
-        <h1><a href="pages/Ecosia.html"><button type="button" class="button button7">Ecosia Blog</button></h1></a>
-        <h1><a href="pages/LandingPage.html"><button type="button" class="button button8">LandingPage</button></h1></a>   
-    </div>
-    <div class="content box">
+        <h2><a href="pages/TypogrophyBlog.html"><button type="button" class="button button2">TypogrophyBlog</button></h2></a>
+        <h3><a href="pages/Table.html"><button type="button" class="button button3">ResourceIndustryBlog</button></h3></a>
+        <h4><a href="pages/AngelBlog.html"><button type="button" class="button button4"> Angel Blog</button></h4></a>         
+        <h5><a href="pages/Ecosia.html"><button type="button" class="button button7">Ecosia Blog</button></h5></a>
+        <h6><a href="pages/LandingPage.html"><button type="button" class="button button8">LandingPage</button></h6></a>   
+    </article>
+    
+    <article class="content box">
       <h1>
-        <div id="nestedGrid">
-          <div id="one" class="photoBox">
-          </div>
-          <div id="two" class="photoBox"></div>
-          <div id="three" class="photoBox"></div>
-          <div id="four" class="photoBox"></div>
-        </div>
-    </div>
-    <div class="footer box">
+        <article id="nestedGrid">
+          <article id="one" class="photoBox">
+          </article>
+          <article id="two" class="photoBox"></article>
+          <article id="three" class="photoBox"></article>
+          <article id="four" class="photoBox"></article>
+        </article>
+      </article>
+    <article class="footer box">
 <p style="color: snow"> Hello World! My Name is Shawn Mak and This is My First Project.</p>
 <p style="color: snow"> 12/2/2020</p>
     </div>

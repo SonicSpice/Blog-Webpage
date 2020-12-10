@@ -1,8 +1,13 @@
+html,
+body {
+  background-color: lightskyblue;
+}
+
 .container {
   display: grid;
   grid-template-columns: 30px repeat(3, 1fr);
   /* */
-  grid-template-rows: 390px 350px 600px 100px;
+  grid-template-rows: 390px 350px 600px 430px;
   /* grid-template-columns: 30px repeat(3, 1fr); */
   grid-template-areas:
     "hd hd hd hd hd hd hd hd"
@@ -11,6 +16,7 @@
     "ft ft ft ft ft ft ft ft";
   border: 2px solid darkblue;
 }
+
 .box {
   width: 1070px;
   height: 100px;
@@ -20,66 +26,56 @@
 }
 
 .header {
+  color: cyan;
   grid-area: hd;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   height: 394px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
 }
 
 .footer {
   grid-area: ft;
-  background-image: url("../images/demoArielBowing.jpg");
-  background-position: left;
+  position: relative;
   background-size: cover;
-  height: 320px;
-  width: 1318px;
-  background-repeat: no-repeat;
+  height: 430px;
+  width: 1320px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
 }
 
 .feature {
   grid-area: feat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 394px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
 }
 
 .content {
   grid-area: main;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 394px;
+  height: 1000px;
   width: 1320px;
   position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
 }
+
 .button0 {
-  background-color: darkblue;
-  font-size: 20px;
-}
-
-.button3 {
-  background-color: darkblue;
-  font-size: 20px;
-}
-
-.button7 {
-  background-color: rgb(63, 181, 179);
+  background-color: cyan;
   font-size: 20px;
   position: relative;
-  top: -57px;
-  right: -392px;
+  top: -80px;
+  right: -870px;
 }
 
-.button5 {
+.button1 {
   background-color: darkred;
   font-size: 20px;
   position: relative;
   top: -116px;
-  right: -245px;
+  right: -1000px;
 }

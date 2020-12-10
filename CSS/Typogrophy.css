@@ -1,3 +1,48 @@
+body {
+  font-size: 34px;
+  background-color: black;
+}
+
+#typographyBlog {
+  text-align: center;
+  height: 34%;
+  width: 44%;
+  margin: auto;
+  font-size: 1.4em;
+  line-height: 1em;
+}
+#color1 {
+  color: cyan;
+}
+
+#color2 {
+  color: red;
+}
+
+#color3 {
+  color: green;
+}
+
+#color4 {
+  color: yellow;
+}
+
+#color5 {
+  color: blue;
+}
+
+#color6 {
+  color: violet;
+}
+
+#color7 {
+  color: snow;
+}
+
+#color8 {
+  color: orange;
+}
+
 .button0 {
   background-color: purple;
   font-size: 20px;
