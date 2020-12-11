@@ -124,7 +124,7 @@ body {
   display: grid;
   grid-template-columns: 48% 48%;
   grid-template-rows: 95% 95%;
-  height: calc(50vh);
+  height: calc(60vh);
   grid-gap: 5px;
 }
 
