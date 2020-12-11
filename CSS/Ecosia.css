@@ -1,4 +1,4 @@
-@import "../css/Post.css";
+@import "Post.css";
 
 html,
 body {
@@ -8,19 +8,17 @@ body {
 .container {
   border: 2px solid darkgreen;
 }
+
 .box {
   border: 1px solid darkgreen;
   background-color: seagreen;
 }
 
-.button0 {
-  top: -80px;
-  right: -870px;
-  padding: 20px;
+#earth {
+  color: darkblue;
 }
 
-.button1 {
-  top: -200px;
-  right: -746px;
-  padding: 20px;
+#ecosia {
+  width: 420px;
+  height: 420px;
 }

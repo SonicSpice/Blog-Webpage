@@ -1,24 +1,28 @@
-@import "../css/Post.css";
+@import "Post.css";
 
 html,
 body {
-  background-color: darkgoldenrod;
+  background-color: grey;
 }
 
 .container {
   border: 2px solid black;
 }
+
+.content {
+  font-size: 30px;
+}
+
 .box {
-  border: 1px solid black;
-  background-color: purple;
+  border: 2px solid black;
+  background-color: brown;
 }
 
-.button0 {
-  top: -110px;
-  right: -500px;
+#landing {
+  color: darkorange;
 }
 
-.button1 {
-  top: -53px;
-  left: 290px;
+#rocket {
+  width: 420px;
+  height: 350px;
 }

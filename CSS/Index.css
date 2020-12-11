@@ -1,12 +1,10 @@
-html {
-  background: url("../images/demoBabyDragon.jpg") no-repeat top right,
-    url("../images/demoSnowFalling.gif") no-repeat;
-  background-size: 198px 198px, cover;
+body {
+  background: url("../images/demoSnowFalling.gif") no-repeat;
+  background-size: cover;
 }
 
 .container {
   display: grid;
-  width: 100%;
   margin-top: 200px;
   margin-bottom: 200px;
   grid-template-columns: 200px 200px;
@@ -17,34 +15,102 @@ html {
     "ft ft ft ft ft ft ft ft";
   border: 2px solid #6666ff;
 }
+
 .box {
   border: 1px solid #6666ff;
   background: purple;
+  background-size: cover;
 }
 
 .header {
   grid-area: hd;
   background-image: url("../images/demoNorthernLights.gif");
-  background-size: 1331px 300px, cover;
+  background-size: 1500px 300px, cover;
   background-repeat: no-repeat;
+  font-size: 24px;
+  color: cyan;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
+
 .sidebar {
   grid-area: sd;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 24px;
 }
+
 .footer {
   grid-area: ft;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
+
 .content {
   grid-area: main;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#nestedGrid {
-  display: grid;
-  grid-template-columns: 48% 48%;
-  grid-template-rows: 110% 110%;
-  height: calc(50vh);
-  grid-gap: 5px;
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.button1 {
+  background-color: yellow;
+  font-size: 20px;
+  padding: 3%;
+  width: 250px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.button2 {
+  background-color: green;
+  font-size: 20px;
+  width: 250px;
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.button3 {
+  background-color: orange;
+  font-size: 20px;
+  width: 250px;
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.button4 {
+  background-color: blue;
+  font-size: 20px;
+  width: 250px;
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.button5 {
+  background-color: springgreen;
+  font-size: 20px;
+  width: 250px;
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.button6 {
+  background-color: darkorchid;
+  font-size: 20px;
+  width: 250px;
+  padding: 3%;
+  grid-column: 1;
+  grid-row: 6;
 }
 
 .photoBox {
@@ -54,8 +120,23 @@ html {
   background: purple;
 }
 
+#nestedGrid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 95% 95%;
+  height: calc(50vh);
+  grid-gap: 5px;
+}
+
+#picture {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 10px;
+}
+
 #one {
-  justify-content: auto;
+  justify-content: center;
   height: 100%;
   width: 100%;
   background-image: url("../images/demoSpring.jpg");
@@ -63,81 +144,32 @@ html {
 }
 
 #two {
-  justify-content: auto;
+  justify-content: center;
   height: 100%;
-  width: 106%;
+  width: 107%;
   background-image: url("../images/demoSummer.jpg");
   background-size: cover;
 }
 
 #three {
-  justify-content: auto;
+  justify-content: center;
   height: auto;
+  width: 100%;
   background-image: url("../images/demoAutumn.jpg");
   background-size: cover;
 }
 
 #four {
   height: auto;
-  width: 106%;
+  width: 107%;
   background-image: url("../images/demoWinter.jpg");
   background-size: cover;
 }
 
-.button1 {
-  background-color: yellow;
-  font-size: 20px;
-  padding: 3%;
+#winter {
+  color: cyan;
 }
 
-.button2 {
-  background-color: green;
-  font-size: 20px;
-  padding: 3%;
+/*mobile*/
+@media screen and (max-width: 460px) {
 }
-
-.button3 {
-  background-color: orange;
-  font-size: 20px;
-  padding: 3%;
-}
-
-.button4 {
-  background-color: blue;
-  font-size: 20px;
-  padding: 3%;
-}
-
-.button6 {
-  background-color: snow;
-  font-size: 20px;
-  padding: 3%;
-}
-
-.button7 {
-  background-color: springgreen;
-  font-size: 20px;
-  padding: 3%;
-}
-.button8 {
-  background-color: darkorchid;
-  font-size: 20px;
-  padding: 3%;
-}
-
-/* media query */
-/* @media (min-width: 460px) {
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1000px 1000px 1000px 500px;
-    grid-template-areas:
-      "hd"
-      "sd main"
-      "ft";
-    position: relative;
-  }
-} */
-
-/* @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-} */

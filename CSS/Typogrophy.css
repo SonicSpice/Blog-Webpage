@@ -11,49 +11,65 @@ body {
   font-size: 1.4em;
   line-height: 1em;
 }
-#color1 {
+#p_cyan {
   color: cyan;
 }
 
-#color2 {
+#p_red {
   color: red;
 }
 
-#color3 {
+#p_green {
   color: green;
 }
 
-#color4 {
+#p_yellow {
   color: yellow;
 }
 
-#color5 {
+#p_blue {
   color: blue;
 }
 
-#color6 {
+#p_violet {
   color: violet;
 }
 
-#color7 {
+#p_white {
   color: snow;
 }
 
-#color8 {
+#p_orange {
   color: orange;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex-container > span {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
 }
 
 .button0 {
   background-color: purple;
   font-size: 20px;
+  width: 250px;
 }
 
 .button2 {
   background-color: cyan;
   font-size: 20px;
+  width: 250px;
 }
 
 .button3 {
   background-color: green;
   font-size: 20px;
+  width: 250px;
 }
