@@ -1,85 +1,65 @@
-<DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <title>Personal Blog Website</title>
-      <meta
-        content="width=device-width initial-scale=1, maximum-scale=1"
-        name="viewpoint"
-      />
-      <link rel="stylesheet" href="css/Index.css" />
-    </head>
-    <body>
-      <figure>
-        <img src="images/demoBabyDragon.jpg" alt="description" id="picture" />
-      </figure>
-      <section class="container" id="Winter">
-        <article class="header box">
-          <h1>
-            <p>
-              <u
-                >All Four Seasons Of Nature Is The Reason Why We Are Programming
-                Computers</u
-              >
-            </p>
-          </h1>
-          <p>
-            Without nature we would not have the materials for building
-            computers and programming them. Without nature we wouldn't be able
-            to build apps, websites, or even robots. Without nature our economy
-            would go down in an instant. Without nature no inventions would be
-            made. Therefore nature plays an important role in humanity's' daily
-            lives.
-          </p>
-        </article>
-        <section class="sidebar box">
-          <article class="flex-container">
-            <h1>
-              <p><u>Blog Post</u></p>
-            </h1>
-            <a href="pages/Post.html">
-              <button type="button" class="button button1">
-                Personal Blog
-              </button>
-            </a>
-            <a href="pages/TypographyBlog.html">
-              <button type="button" class="button button2">
-                Typography Blog
-              </button>
-            </a>
-            <a href="pages/Table.html">
-              <button type="button" class="button button3">
-                Resource Industry Blog
-              </button>
-            </a>
-            <a href="pages/AngelBlog.html">
-              <button type="button" class="button button4">Angel Blog</button>
-            </a>
-            <a href="pages/Ecosia.html">
-              <button type="button" class="button button5">Ecosia Blog</button>
-            </a>
-            <a href="pages/LandingPage.html">
-              <button type="button" class="button button6">
-                Landing Webpage
-              </button>
-            </a>
-          </article>
-        </section>
-        <article class="content box" id="nestedGrid">
-          <article id="one" class="photoBox"></article>
-          <article id="two" class="photoBox"></article>
-          <article id="three" class="photoBox"></article>
-          <article id="four" class="photoBox"></article>
-        </article>
-        <article class="footer box">
-          <p>
-            <em
-              >Hello World! My Name is Shawn Mak and This is My First Project.
-              <br />12/2/2020</em
-            >
-          </p>
-        </article>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Personal Blog Website</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="css/Index.css" />
+  </head>
+
+  <body>
+    <header class="header-grid header">
+      <img src="images/demoBabyDragon.jpg" alt="my avatar" id="avatar" />
+
+      <section>
+        <h1>Project 1</h1>
+        <h3>Shawn's Blogs</h3>
       </section>
-    </body>
-  </html>
-</DOCTYPE>
+    </header>
+
+    <article class="header-content header">
+      <h2>Personal Statement:</h2>
+      <blockquote>
+        Without nature we would not have the materials for building computers
+        and programming them. Without nature we wouldn't be able to build apps,
+        websites, or even robots. Without nature our economy would go down in an
+        instant. Without nature no inventions would be made. Therefore nature
+        plays an important role in humanity's daily lives.
+      </blockquote>
+    </article>
+
+    <section class="blog-grid">
+      <figure class="button button1">
+        <a href="pages/Post.html"> Personal Blog </a>
+        <figcaption>Caption: Spring Thoughts</figcaption>
+      </figure>
+
+      <figure class="button button2">
+        <a href="pages/TypogrophyBlog.html"> Typography Blog </a>
+        <figcaption>Caption: Summer Dreaming</figcaption>
+      </figure>
+
+      <figure class="button button3">
+        <a href="pages/Table.html"> Resource Industry Blog </a>
+        <figcaption>Caption: Fall into Place</figcaption>
+      </figure>
+
+      <figure class="button button4">
+        <a href="pages/AngelBlog.html"> Angel Blog </a>
+        <figcaption>Caption: Winter Has Come</figcaption>
+      </figure>
+    </section>
+
+    <footer class="footer box">
+      <p>
+        <em
+          >Hello World! My Name is Shawn Mak and This is My First Project.
+          <br />12/2/2020</em
+        >
+      </p>
+    </footer>
+  </body>
+</html>
