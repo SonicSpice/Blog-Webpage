@@ -1,12 +1,14 @@
-@import "Post.css";
+@import 'Post.css';
 
-html,
 body {
   background-color: darkblue;
+  display: flex;
 }
 
 .container {
   border: 2px solid darkred;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
