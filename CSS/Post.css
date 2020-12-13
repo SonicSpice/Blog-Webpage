@@ -26,6 +26,9 @@ body {
   position: relative;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px;
+  background-image: url("../images/demoNorthernLights.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .feature {
