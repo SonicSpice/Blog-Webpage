@@ -4,16 +4,8 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 30px repeat(3, 1fr);
-  grid-template-rows: 350px 350px 600px 450px;
-  grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "feat feat feat feat feat feat feat feat"
-    "main main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-  border: 2px solid darkblue;
-  row-gap: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
@@ -26,9 +18,6 @@ body {
   position: relative;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px;
-  background-image: url("../images/demoNorthernLights.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .feature {
@@ -46,7 +35,8 @@ body {
 }
 
 .footer {
-  grid-area: ft;
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-repeat: no-repeat;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -55,9 +45,6 @@ body {
 
 .button0 {
   background-color: cyan;
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 250px;
   height: 100px;
   font-size: 20px;
@@ -65,12 +52,9 @@ body {
 
 .button1 {
   background-color: darkred;
-  position: absolute;
-  bottom: 0;
-  right: 300px;
-  width: 250px;
   height: 100px;
   font-size: 20px;
+  width: 250px;
 }
 
 .button2 {
@@ -93,5 +77,13 @@ body {
   border-radius: 70%;
   width: 380px;
   height: 340px;
-  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  #avatar {
+    border-radius: 70%;
+    width: 200px;
+    height: 160px;
+    background-size: cover;
+  }
 }

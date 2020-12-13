@@ -1,0 +1,30 @@
+.header-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+#avatar {
+  width: 176px;
+  height: 199px;
+  margin: 8px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header {
+  color: cyan;
+  border: 1px solid #6666ff;
+  background: purple;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: black !important;
+  }
+}
