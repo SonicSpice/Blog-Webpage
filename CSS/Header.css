@@ -1,5 +1,4 @@
 .header-grid {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
 }
@@ -29,35 +28,3 @@
     background: black !important;
   }
 }
-=======
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #avatar {
-    width: 176px;
-    height: 199px;
-    margin: 8px;
-  }
-  
-  .header-content {
-    text-align: center;
-  }
-  
-  .header {
-    color: cyan;
-    border: 1px solid #6666ff;
-    background: purple;
-    padding: 16px;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .header-grid {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      background: black !important;
-    }
-  }
-  
->>>>>>> 5d3d4c554c98b10dbf3658a2e892eb4d40e9da1e
